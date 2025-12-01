@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚗 MechanIQ
 
-## Getting Started
+MechanIQ is a web application designed for car workshops and vehicle owners to simplify the process of **diagnosis, quoting, and appointment scheduling**.
 
-First, run the development server:
+It allows users to:
+- Self-diagnose common vehicle issues
+- Get an estimated repair cost
+- Book an appointment for a detailed inspection
+- Keep a history of diagnostics by vehicle
+
+It allows workshops to:
+- Manage incoming requests
+- Confirm or correct estimations
+- Organize their agenda
+- Track customers and vehicles
+
+This project is also part of my professional portfolio, focused on **Next.js + TypeScript** to expand my stack beyond Ruby on Rails & React.
+
+---
+
+## 🎯 Purpose
+
+- Gain hands-on experience with **Next.js (App Router)**
+- Implement a real-world, industry-focused solution
+- Apply best practices in architecture and clean code
+- Build a production-ready app to showcase in interviews
+- Expand my skills in the JavaScript / React ecosystem
+
+---
+
+## ✨ Main Features
+
+### For Customers
+- Register vehicles (brand, model, year, engine)
+- Guided self-diagnosis based on symptoms
+- Approximate budget estimation
+- Image / video upload for better analysis
+- Appointment booking
+- Diagnosis & repair history
+
+### For Workshops
+- Admin dashboard
+- View incoming diagnostics
+- Confirm or adjust estimated quotes
+- Manage appointments
+- Customer & vehicle management
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js 14 (App Router)**
+- **TypeScript**
+- **TailwindCSS**
+- **shadcn/ui**
+- **Prisma**
+- **PostgreSQL** (Supabase or Railway)
+- **NextAuth / Clerk (Authentication)**
+- **React Hook Form + Zod (Forms + Validation)**
+- **Cloudinary / AWS S3 (Media upload)**
+- **Vercel (Deployment)**
+
+Optional / Future enhancement:
+- AI-assisted diagnostics (OpenAI or similar)
+
+## 🚀 Getting Started
+
+### 1. Clone repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/mechaniq.git
+cd mechaniq
